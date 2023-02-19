@@ -7,4 +7,9 @@
     .navbar {
         @apply flex flex-row space-x-4 bg-bleached-cedar-500 justify-between px-8 h-20 text-2xl font-bold text-zinc-800
     }
+
+    .navbar-item {
+        @apply border-b-4 border-fuel-yellow-500 border-opacity-0 hover:border-opacity-100 hover:text-monza-800 transition h-full
+        flex flex-col justify-center rounded
+    }
 }
