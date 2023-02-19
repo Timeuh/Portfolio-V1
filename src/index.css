@@ -9,7 +9,7 @@
     }
 
     .navbar-item {
-        @apply bg-[#251316] flex flex-col text-center my-1 py-5 mx-1 border-b-2 border-monza-main border-opacity-0
-        hover:border-opacity-100 transition
+        @apply bg-[#251316] flex flex-col text-center my-1 py-5 mx-1 border-b-4 border-monza-main border-opacity-0
+        hover:border-opacity-100 transition h-full hover:text-fuel-yellow-200
     }
 }
