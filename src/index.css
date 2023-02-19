@@ -5,7 +5,7 @@
 @layer components {
 
     .navbar {
-        @apply flex flex-row space-x-4 bg-[#251316] justify-between px-8 h-20 text-2xl font-bold text-fuel-yellow-main
+        @apply flex flex-row space-x-4 bg-[#251316] justify-between px-8 h-20 text-2xl font-bold text-fuel-yellow-main sticky top-0
     }
 
     .navbar-item {
