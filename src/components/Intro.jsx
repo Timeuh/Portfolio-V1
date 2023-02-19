@@ -20,8 +20,8 @@ function Intro() {
                     <p className="text-monza-main">Bonne lecture !</p>
                 </div>
             </div>
-            <div className="h-4/6 w-2/6 border-2 rounded-full border-fuel-yellow-main">
-                <img src={icon} alt='image' height="650" width="650"/>
+            <div className="h-4/5 w-2/5 flex justify-center items-center">
+                <img src={icon} alt='image' height="500" width="500"/>
             </div>
         </div>
     );
