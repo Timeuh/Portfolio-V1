@@ -1,5 +1,6 @@
 import Intro from './components/Intro.jsx';
 import Navbar from "./components/Navbar.jsx";
+import About from "./components/About.jsx";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
         <div>
             <Navbar/>
             <Intro/>
+            <About/>
         </div>
     );
 }
