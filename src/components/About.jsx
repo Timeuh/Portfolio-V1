@@ -19,7 +19,7 @@ function About() {
                 <div className="w-1/4 flex flex-row justify-center">
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
-                <p className="w-2/6">
+                <p className="w-2/6 my-4 leading-8">
                     Pour m'aider à décider quelle voie choisir après les études, je compte sur les différents stages
                     en entreprise demandés dans le cadre du BUT, ou bien sur une potentielle 3e année en alternance, qui
                     sait ?
@@ -32,7 +32,7 @@ function About() {
                 <div className="w-1/4 flex flex-row justify-center">
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
-                <p className="w-2/6">
+                <p className="w-2/6 text-right pt-8 leading-8">
                     Sinon, d'un point de vue développement je m'oriente vers le fullstack avec une préférence pour le
                     front-end
                     depuis que j'ai commencé à apprendre Javascript et que j'ai découvert Tailwind CSS pour mes projets
@@ -46,7 +46,7 @@ function About() {
                 <div className="w-1/4 flex flex-row justify-center">
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
-                <p className="w-2/6">
+                <p className="w-2/6 pt-8 leading-8">
                     C'est pour cela qu'en ce moment, j'ai pour objectif de travailler sur des projets d'applications web
                     pour
                     approfondir mes compétences et mes connaissances, surtout en javascript. Vous pourrez voir plus bas
