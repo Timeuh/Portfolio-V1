@@ -3,12 +3,12 @@ import icon from '../../public/icon.png';
 function About() {
 
     return (
-        <div id="about" className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full h-screen">
+        <div id="about" className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full h-screen bg-[url('../../public/about-bg.png')] bg-cover">
             <div className="flex flex-row justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
-                <p className="w-2/6">
+                <p className="w-2/6 text-right leading-8">
                     Je suis Timothée Brindejonc, et comme je l'ai dit plus haut, je suis étudiant en 2e année
                     de BUT informatique. Mon objectif à la fin de ma 3e année et avec le diplôme en poche, n'est
                     pas encore défini. J'hésite entre continuer les études avec un Master et entrer directement
