@@ -3,9 +3,11 @@ import icon from '../../public/icon.png';
 function About() {
 
     return (
-        <div id="about" className="h-screen w-full bg-thunder-800 text-fuel-yellow-main text-2xl">
-            <div className="flex flex-row justify-around text-justify items-center h-1/4">
-                <img src={icon} height="200" width="200" alt="icon"/>
+        <div id="about" className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full h-screen">
+            <div className="flex flex-row justify-around items-center h-1/4 py-8">
+                <div className="w-1/4 flex flex-row justify-center">
+                    <img src={icon} height="200" width="200" alt="icon"/>
+                </div>
                 <p className="w-2/6">
                     Je suis Timothée Brindejonc, et comme je l'ai dit plus haut, je suis étudiant en 2e année
                     de BUT informatique. Mon objectif à la fin de ma 3e année et avec le diplôme en poche, n'est
@@ -13,8 +15,10 @@ function About() {
                     sur le marché du travail.
                 </p>
             </div>
-            <div className="flex flex-row-reverse justify-around text-justify items-center h-1/4">
-                <img src={icon} height="200" width="200" alt="icon"/>
+            <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
+                <div className="w-1/4 flex flex-row justify-center">
+                    <img src={icon} height="200" width="200" alt="icon"/>
+                </div>
                 <p className="w-2/6">
                     Pour m'aider à décider quelle voie choisir après les études, je compte sur les différents stages
                     en entreprise demandés dans le cadre du BUT, ou bien sur une potentielle 3e année en alternance, qui
@@ -24,8 +28,10 @@ function About() {
                     ou l'insertion professionnelle.
                 </p>
             </div>
-            <div className="flex flex-row justify-around text-justify items-center h-1/4">
-                <img src={icon} height="200" width="200" alt="icon"/>
+            <div className="flex flex-row justify-around items-center h-1/4 py-8">
+                <div className="w-1/4 flex flex-row justify-center">
+                    <img src={icon} height="200" width="200" alt="icon"/>
+                </div>
                 <p className="w-2/6">
                     Sinon, d'un point de vue développement je m'oriente vers le fullstack avec une préférence pour le
                     front-end
@@ -36,8 +42,10 @@ function About() {
                     les utilisateurs.
                 </p>
             </div>
-            <div className="flex flex-row-reverse justify-around text-justify items-center h-1/4">
-                <img src={icon} height="200" width="200" alt="icon"/>
+            <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
+                <div className="w-1/4 flex flex-row justify-center">
+                    <img src={icon} height="200" width="200" alt="icon"/>
+                </div>
                 <p className="w-2/6">
                     C'est pour cela qu'en ce moment, j'ai pour objectif de travailler sur des projets d'applications web
                     pour
