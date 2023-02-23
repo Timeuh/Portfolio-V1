@@ -1,4 +1,4 @@
-import icon from '../../public/icon.png';
+import profile from '../../public/pic_front.jpg';
 
 function Intro() {
 
@@ -21,7 +21,7 @@ function Intro() {
                 </div>
             </div>
             <div className="h-4/5 w-2/5 flex justify-center items-center">
-                <img src={icon} alt='image' height="500" width="500"/>
+                <img src={profile} alt='image' className="rounded-full w-3/4 h-3/4 border-2 border-fuel-yellow-main"/>
             </div>
         </div>
     );
