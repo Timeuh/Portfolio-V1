@@ -3,16 +3,18 @@ import icon from '../../public/icon.png';
 function About() {
 
     return (
-        <div id="about" className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full h-screen bg-[url('../../public/about-bg.png')] bg-cover">
+        <div id="about"
+             className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full bg-[url('../../public/about-bg.png')] bg-cover">
             <div className="flex flex-row justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
                 <p className="w-2/6 text-right leading-8">
-                    Je suis Timothée Brindejonc, et comme je l'ai dit plus haut, je suis étudiant en 2e année
-                    de BUT informatique. Mon objectif à la fin de ma 3e année et avec le diplôme en poche, n'est
-                    pas encore défini. J'hésite entre continuer les études avec un Master et entrer directement
-                    sur le marché du travail.
+                    Je suis <span className="text-monza-main font-bold">Timothée Brindejonc</span>, et comme je l'ai dit
+                    plus haut, je suis
+                    étudiant en <span className="text-monza-main font-bold"> 2e année de BUT informatique</span>.
+                    Mon objectif à la fin de ma 3e année et avec le diplôme en poche, n'est pas encore défini.
+                    J'hésite entre continuer les études avec un Master et entrer directement sur le marché du travail.
                 </p>
             </div>
             <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
@@ -20,9 +22,10 @@ function About() {
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
                 <p className="w-2/6 my-4 leading-8">
-                    Pour m'aider à décider quelle voie choisir après les études, je compte sur les différents stages
-                    en entreprise demandés dans le cadre du BUT, ou bien sur une potentielle 3e année en alternance, qui
-                    sait ?
+                    Pour m'aider à décider quelle voie choisir après les études, je compte sur les différents
+                    <span className="text-monza-main font-bold"> stages en entreprise</span> demandés dans le cadre du
+                    BUT, ou bien sur une
+                    <span className="text-monza-main font-bold"> potentielle 3e année en alternance</span>, qui sait ?
                     En fonction de mon ressenti sur l'expérience acquise, je me dirigerai alors vers la poursuite
                     d'étude
                     ou l'insertion professionnelle.
@@ -33,13 +36,15 @@ function About() {
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
                 <p className="w-2/6 text-right pt-8 leading-8">
-                    Sinon, d'un point de vue développement je m'oriente vers le fullstack avec une préférence pour le
-                    front-end
-                    depuis que j'ai commencé à apprendre Javascript et que j'ai découvert Tailwind CSS pour mes projets
-                    personnels.
-                    J'ai pour vocation de créer des applications et des sites web complets et bien pensés, optimisés et
-                    agréables pour
-                    les utilisateurs.
+                    Sinon, d'un point de vue développement je m'oriente vers le <span
+                    className="text-monza-main font-bold"> fullstack </span>
+                    avec une <span className="text-monza-main font-bold"> préférence pour le front-end</span> depuis que
+                    j'ai commencé à apprendre
+                    Javascript et que j'ai découvert <span
+                    className="text-monza-main font-bold">Tailwind CSS</span> pour mes projets personnels.
+                    J'ai pour vocation de <span className="text-monza-main font-bold">créer des applications</span> et
+                    <span className="text-monza-main font-bold"> des sites web</span> complets et bien pensés, optimisés
+                    et agréables pour les utilisateurs.
                 </p>
             </div>
             <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
@@ -47,11 +52,10 @@ function About() {
                     <img src={icon} height="200" width="200" alt="icon"/>
                 </div>
                 <p className="w-2/6 pt-8 leading-8">
-                    C'est pour cela qu'en ce moment, j'ai pour objectif de travailler sur des projets d'applications web
-                    pour
-                    approfondir mes compétences et mes connaissances, surtout en javascript. Vous pourrez voir plus bas
-                    mes
-                    différents projets.
+                    C'est pour cela qu'en ce moment, j'ai pour objectif de travailler sur des
+                    <span className="text-monza-main font-bold"> projets d'applications web</span> pour
+                    approfondir mes compétences et mes connaissances, <span className="text-monza-main font-bold">surtout en javascript</span>.
+                    Vous pourrez voir plus bas <span className="text-bleached-cedar-400 font-bold">mes différents projets</span>.
                 </p>
             </div>
         </div>
