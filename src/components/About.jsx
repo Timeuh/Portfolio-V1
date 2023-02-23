@@ -1,13 +1,17 @@
-import icon from '../../public/icon.png';
+import picture from '../../public/pic_side.jpg';
+import graduation from '../../public/graduation.jpg';
+import frameworks from '../../public/frameworks.png';
+import webapp from '../../public/web_app.png';
 
 function About() {
 
     return (
         <div id="about"
-             className=" w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full bg-[url('../../public/about-bg.png')] bg-cover">
+             className="w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full bg-[url('../../public/about-bg.png')] bg-cover">
             <div className="flex flex-row justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
-                    <img src={icon} height="200" width="200" alt="icon"/>
+                    <img src={picture} height="300" width="200" alt="me"
+                         className="rounded-full border-2 border-fuel-yellow-main"/>
                 </div>
                 <p className="w-2/6 text-right leading-8">
                     Je suis <span className="text-monza-main font-bold">Timothée Brindejonc</span>, et comme je l'ai dit
@@ -19,7 +23,8 @@ function About() {
             </div>
             <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
-                    <img src={icon} height="200" width="200" alt="icon"/>
+                    <img src={graduation} height="300" width="300" alt="graduation"
+                         className="rounded-full border-2 border-monza-main"/>
                 </div>
                 <p className="w-2/6 my-4 leading-8">
                     Pour m'aider à décider quelle voie choisir après les études, je compte sur les différents
@@ -33,7 +38,8 @@ function About() {
             </div>
             <div className="flex flex-row justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
-                    <img src={icon} height="200" width="200" alt="icon"/>
+                    <img src={frameworks} height="400" width="400" alt="frameworks"
+                         className="rounded-full border-2 border-monza-main"/>
                 </div>
                 <p className="w-2/6 text-right pt-8 leading-8">
                     Sinon, d'un point de vue développement je m'oriente vers le <span
@@ -49,7 +55,8 @@ function About() {
             </div>
             <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
                 <div className="w-1/4 flex flex-row justify-center">
-                    <img src={icon} height="200" width="200" alt="icon"/>
+                    <img src={webapp} height="400" width="400" alt="web app"
+                         className="rounded-full border-2 border-fuel-yellow-main"/>
                 </div>
                 <p className="w-2/6 pt-8 leading-8">
                     C'est pour cela qu'en ce moment, j'ai pour objectif de travailler sur des
