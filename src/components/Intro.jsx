@@ -21,7 +21,8 @@ function Intro() {
                 </div>
             </div>
             <div className="h-4/5 w-2/5 flex justify-center items-center">
-                <img src={profile} alt='image' className="rounded-full w-3/4 h-3/4 border-2 border-fuel-yellow-main"/>
+                <img src={profile} alt='me' height="400" width="400"
+                     className="rounded-full border-2 border-fuel-yellow-main"/>
             </div>
         </div>
     );
