@@ -13,7 +13,7 @@
         hover:border-opacity-100 transition h-full hover:text-fuel-yellow-200
     }
 
-    .skills-icons {
-        @apply flex flex-row justify-around w-4/6 h-full rounded-md py-16 border-2
+    .skills-icon-hover {
+        @apply bg-white bg-opacity-20 rounded drop-shadow-lg transition
     }
 }
