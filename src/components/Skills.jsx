@@ -10,39 +10,39 @@ function Skills() {
                         bg-gradient-to-r from-fuel-yellow-main to-fuel-yellow-300">
                         <h1 className="text-3xl pb-4">Outils maîtrisés</h1>
                         <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="#intro">
+                            <a href="https://www.gnu.org/software/bash/">
                                 <img src="../../public/icons/bash.png" alt="Bash" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.linux.org">
                                 <img src="../../public/icons/linux.png" alt="Linux" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.microsoft.com/fr-fr/windows?r=1">
                                 <img src="../../public/icons/windows.png" alt="Windows" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://git-scm.com">
                                 <img src="../../public/icons/git.png" alt="Git" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://github.com">
                                 <img src="../../public/icons/github.png" alt="Github" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.jetbrains.com/fr-fr/">
                                 <img src="../../public/icons/jetbrains.png" alt="Jetbrains" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.oracle.com/fr/">
                                 <img src="../../public/icons/oracle.png" alt="Oracle DB" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.mysql.com/fr/">
                                 <img src="../../public/icons/mysql.png" alt="MySQL" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://mariadb.org">
                                 <img src="../../public/icons/mariadb.png" alt="MariaDB" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
@@ -67,27 +67,27 @@ function Skills() {
                         bg-gradient-to-r from-monza-400 to-monza-200">
                         <h1 className="text-3xl pb-4">Technologies maîtrisées</h1>
                         <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="">
+                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
                                 <img src="../../public/icons/html.png" alt="Html" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS">
                                 <img src="../../public/icons/css.png" alt="Css" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.javascript.com">
                                 <img src="../../public/icons/javascript.png" alt="Javascript" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.php.net/manual/fr/intro-whatis.php">
                                 <img src="../../public/icons/php.png" alt="Php" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://learn.microsoft.com/fr-fr/cpp/c-language/c-language-reference?view=msvc-170">
                                 <img src="../../public/icons/c.png" alt="C" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.java.com/fr/">
                                 <img src="../../public/icons/java.png" alt="Java" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
@@ -113,31 +113,31 @@ function Skills() {
                                 <img src="../../public/icons/tailwind.png" alt="Tailwind CSS" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://tailwindcss.com">
                                 <img src="../../public/icons/laravel.png" alt="Laravel" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://fr.reactjs.org">
                                 <img src="../../public/icons/react.png" alt="React Js" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://nextjs.org">
                                 <img src="../../public/icons/next.png" alt="Next Js" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://vitejs.dev">
                                 <img src="../../public/icons/vite.png" alt="Vite Js" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://vercel.com">
                                 <img src="../../public/icons/vercel.png" alt="Vercel" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://firebase.google.com">
                                 <img src="../../public/icons/firebase.png" alt="Firebase" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="">
+                            <a href="https://www.mongodb.com">
                                 <img src="../../public/icons/mongo.png" alt="Mongo DB" width="80" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
