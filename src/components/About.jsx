@@ -19,7 +19,7 @@ function About() {
                     J'hésite entre continuer les études avec un Master et entrer directement sur le marché du travail.
                 </p>
             </div>
-            <div className="flex flex-row-reverse justify-around items-center h-1/4 py-8">
+            <div className="flex flex-row-reverse justify-around items-center h-1/4 pb-12">
                 <img src={graduation} height="300" width="300" alt="graduation"
                      className="rounded-full border-2 border-monza-main"/>
                 <p className="w-2/6 my-4 leading-8">
