@@ -68,27 +68,27 @@ function Skills() {
                         <h1 className="text-3xl pb-4">Technologies maîtrisées</h1>
                         <div className="font-bold justify-around flex flex-row items-center">
                             <a href="">
-                                <img src="../../public/icons/html.png" alt="Git" width="100" height="100"
+                                <img src="../../public/icons/html.png" alt="Html" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                             <a href="">
-                                <img src="../../public/icons/css.png" alt="Github" width="100" height="100"
+                                <img src="../../public/icons/css.png" alt="Css" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                             <a href="">
-                                <img src="../../public/icons/javascript.png" alt="Jetbrains" width="100" height="100"
+                                <img src="../../public/icons/javascript.png" alt="Javascript" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                             <a href="">
-                                <img src="../../public/icons/php.png" alt="Oracle DB" width="100" height="100"
+                                <img src="../../public/icons/php.png" alt="Php" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                             <a href="">
-                                <img src="../../public/icons/c.png" alt="MySQL" width="100" height="100"
+                                <img src="../../public/icons/c.png" alt="C" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                             <a href="">
-                                <img src="../../public/icons/java.png" alt="MariaDB" width="100" height="100"
+                                <img src="../../public/icons/java.png" alt="Java" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
                         </div>
