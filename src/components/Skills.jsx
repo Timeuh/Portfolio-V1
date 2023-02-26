@@ -109,11 +109,11 @@ function Skills() {
                         bg-gradient-to-r from-bleached-cedar-main to-bleached-cedar-700">
                         <h1 className="text-3xl pb-4">Technologies qui m'intéressent</h1>
                         <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="">
+                            <a href="https://tailwindcss.com">
                                 <img src="../../public/icons/tailwind.png" alt="Tailwind CSS" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
-                            <a href="https://tailwindcss.com">
+                            <a href="https://laravel.com">
                                 <img src="../../public/icons/laravel.png" alt="Laravel" width="100" height="100"
                                      className="hover:skills-icon-hover"/>
                             </a>
