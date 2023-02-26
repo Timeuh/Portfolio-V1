@@ -1,7 +1,7 @@
 function Skills() {
 
     return (
-        <div>
+        <div id="skills" className="bg-thunder-700 w-full h-screen">
 
         </div>
     );
