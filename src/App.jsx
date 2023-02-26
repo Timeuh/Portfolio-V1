@@ -6,12 +6,12 @@ import Skills from "./components/Skills.jsx";
 function App() {
 
     return (
-        <div>
+        <>
             <Navbar/>
             <Intro/>
             <About/>
             <Skills/>
-        </div>
+        </>
     );
 }
 
