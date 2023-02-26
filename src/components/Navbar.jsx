@@ -1,4 +1,4 @@
-import icon from "../../public/icon.png";
+import icon from "../../public/icons/icon.png";
 
 function Navbar() {
 

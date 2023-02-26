@@ -1,10 +1,10 @@
-import profile from '../../public/pic_front.jpg';
+import profile from '../../public/illustrations/pic_front.jpg';
 
 function Intro() {
 
     return (
         <div id="intro"
-             className="h-screen bg-[url('../../public/intro-bg.png')] bg-cover text-fuel-yellow-main flex flex-row-reverse justify-around items-center">
+             className="h-screen bg-[url('../../public/backgrounds/intro-bg.png')] bg-cover text-fuel-yellow-main flex flex-row-reverse justify-around items-center">
             <div className="h-4/6 w-2/5 p-12 text-2xl">
                 <h1 className="text-3xl p-4 text-center text-monza-main">Bonjour !</h1>
                 <div className="text-left space-y-8">

@@ -8,15 +8,20 @@ function Skills() {
                 <h1 className="text-3xl py-4 text-martinique-600">Outils maîtrisés</h1>
                 <div className="flex justify-center h-full">
                     <div className="skills-icons bg-fuel-yellow-main border-martinique-600">
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Bash" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Linux" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Windows" width="100" height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Git" width="100" height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Github" width="100" height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Jetbrains" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="Oracle DB" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="MySQL" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="MariaDB" width="100" height="100"/></a>
                     </div>
                 </div>
             </div>
@@ -24,12 +29,18 @@ function Skills() {
                 <h1 className="text-3xl py-4 text-fuel-yellow-main">Compétences maîtrisées</h1>
                 <div className="flex justify-center h-full">
                     <div className="skills-icons bg-monza-main border-fuel-yellow-main">
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
-                        <a href="#intro"><img src="../../public/icon.png" alt="icon" width="100" height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
+                        <a href="#intro"><img src="../../public/icons/icon.png" alt="icon" width="100"
+                                              height="100"/></a>
                     </div>
                 </div>
             </div>
