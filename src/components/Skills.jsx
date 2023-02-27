@@ -1,5 +1,5 @@
 import SkillsList from "./SkillsList.jsx";
-import knownTechs from "../services/LinksData.js";
+import {knownTechs, knownTools} from "../services/LinksData.js";
 
 function Skills() {
 
@@ -12,44 +12,7 @@ function Skills() {
                     <div className="h-full w-4/6  rounded-md py-8 border-2 items-center border-martinique-600
                         bg-gradient-to-r from-fuel-yellow-main to-fuel-yellow-300">
                         <h1 className="text-3xl pb-4">Outils maîtrisés</h1>
-                        <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="https://www.gnu.org/software/bash/">
-                                <img src="../../public/icons/bash.png" alt="Bash" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.linux.org">
-                                <img src="../../public/icons/linux.png" alt="Linux" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.microsoft.com/fr-fr/windows?r=1">
-                                <img src="../../public/icons/windows.png" alt="Windows" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://git-scm.com">
-                                <img src="../../public/icons/git.png" alt="Git" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://github.com">
-                                <img src="../../public/icons/github.png" alt="Github" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.jetbrains.com/fr-fr/">
-                                <img src="../../public/icons/jetbrains.png" alt="Jetbrains" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.oracle.com/fr/">
-                                <img src="../../public/icons/oracle.png" alt="Oracle DB" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.mysql.com/fr/">
-                                <img src="../../public/icons/mysql.png" alt="MySQL" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://mariadb.org">
-                                <img src="../../public/icons/mariadb.png" alt="MariaDB" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                        </div>
+                        <SkillsList techs={knownTools}/>
                         <div className="justify-around flex flex-row pt-4 font-bold">
                             <h1 className="w-20">Bash</h1>
                             <h1 className="w-20">Linux</h1>
@@ -69,7 +32,7 @@ function Skills() {
                     <div className="h-full w-4/6  rounded-md py-8 border-2 items-center border-bleached-cedar-main
                         bg-gradient-to-r from-monza-400 to-monza-200">
                         <h1 className="text-3xl pb-4">Technologies maîtrisées</h1>
-                        <SkillsList techs={knownTechs}></SkillsList>
+                        <SkillsList techs={knownTechs}/>
                         <div className="justify-around flex flex-row pt-4 font-bold">
                             <h1 className="w-20">Html</h1>
                             <h1 className="w-20">Css</h1>
