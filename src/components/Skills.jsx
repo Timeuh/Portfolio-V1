@@ -1,3 +1,6 @@
+import SkillsList from "./SkillsList.jsx";
+import knownTechs from "../services/LinksData.js";
+
 function Skills() {
 
     return (
@@ -66,32 +69,7 @@ function Skills() {
                     <div className="h-full w-4/6  rounded-md py-8 border-2 items-center border-bleached-cedar-main
                         bg-gradient-to-r from-monza-400 to-monza-200">
                         <h1 className="text-3xl pb-4">Technologies maîtrisées</h1>
-                        <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
-                                <img src="../../public/icons/html.png" alt="Html" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://developer.mozilla.org/fr/docs/Web/CSS">
-                                <img src="../../public/icons/css.png" alt="Css" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.javascript.com">
-                                <img src="../../public/icons/javascript.png" alt="Javascript" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.php.net/manual/fr/intro-whatis.php">
-                                <img src="../../public/icons/php.png" alt="Php" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://learn.microsoft.com/fr-fr/cpp/c-language/c-language-reference?view=msvc-170">
-                                <img src="../../public/icons/c.png" alt="C" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.java.com/fr/">
-                                <img src="../../public/icons/java.png" alt="Java" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                        </div>
+                        <SkillsList techs={knownTechs}></SkillsList>
                         <div className="justify-around flex flex-row pt-4 font-bold">
                             <h1 className="w-20">Html</h1>
                             <h1 className="w-20">Css</h1>
