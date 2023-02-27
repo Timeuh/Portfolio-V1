@@ -1,5 +1,6 @@
-import SkillsList from "./SkillsList.jsx";
-import {interestTechs, knownTechs, knownTools} from "../services/LinksData.js";
+import SkillsList from "./skills/SkillsList.jsx";
+import {knownTechs, knownTools} from "../services/LinksData.js";
+import SkillsContainer from "./skills/SkillsContainer.jsx";
 
 function Skills() {
 
@@ -45,23 +46,7 @@ function Skills() {
                 </div>
             </div>
             <div className="h-1/4 text-fuel-yellow-main pb-24">
-                <div className="flex justify-center h-full">
-                    <div className="h-full w-4/6  rounded-md py-8 border-2 items-center border-fuel-yellow-main
-                        bg-gradient-to-r from-bleached-cedar-main to-bleached-cedar-700">
-                        <h1 className="text-3xl pb-4">Technologies qui m'intéressent</h1>
-                        <SkillsList techs={interestTechs}/>
-                        <div className="justify-around flex flex-row pt-4 font-bold">
-                            <h1 className="w-20">Tailwind CSS</h1>
-                            <h1 className="w-20">Laravel</h1>
-                            <h1 className="w-20">React Js</h1>
-                            <h1 className="w-20">Next Js</h1>
-                            <h1 className="w-20">Vite Js</h1>
-                            <h1 className="w-20">Vercel</h1>
-                            <h1 className="w-20">Firebase</h1>
-                            <h1 className="w-20">MongoDB</h1>
-                        </div>
-                    </div>
-                </div>
+                <SkillsContainer/>
             </div>
         </div>
     );
