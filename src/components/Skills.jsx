@@ -1,5 +1,5 @@
 import SkillsList from "./SkillsList.jsx";
-import {knownTechs, knownTools} from "../services/LinksData.js";
+import {interestTechs, knownTechs, knownTools} from "../services/LinksData.js";
 
 function Skills() {
 
@@ -49,40 +49,7 @@ function Skills() {
                     <div className="h-full w-4/6  rounded-md py-8 border-2 items-center border-fuel-yellow-main
                         bg-gradient-to-r from-bleached-cedar-main to-bleached-cedar-700">
                         <h1 className="text-3xl pb-4">Technologies qui m'intéressent</h1>
-                        <div className="font-bold justify-around flex flex-row items-center">
-                            <a href="https://tailwindcss.com">
-                                <img src="../../public/icons/tailwind.png" alt="Tailwind CSS" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://laravel.com">
-                                <img src="../../public/icons/laravel.png" alt="Laravel" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://fr.reactjs.org">
-                                <img src="../../public/icons/react.png" alt="React Js" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://nextjs.org">
-                                <img src="../../public/icons/next.png" alt="Next Js" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://vitejs.dev">
-                                <img src="../../public/icons/vite.png" alt="Vite Js" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://vercel.com">
-                                <img src="../../public/icons/vercel.png" alt="Vercel" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://firebase.google.com">
-                                <img src="../../public/icons/firebase.png" alt="Firebase" width="100" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                            <a href="https://www.mongodb.com">
-                                <img src="../../public/icons/mongo.png" alt="Mongo DB" width="80" height="100"
-                                     className="hover:skills-icon-hover"/>
-                            </a>
-                        </div>
+                        <SkillsList techs={interestTechs}/>
                         <div className="justify-around flex flex-row pt-4 font-bold">
                             <h1 className="w-20">Tailwind CSS</h1>
                             <h1 className="w-20">Laravel</h1>

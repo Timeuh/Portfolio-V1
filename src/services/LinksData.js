@@ -78,3 +78,46 @@ export const knownTools = [
         alt: "MariaDB"
     },
 ]
+
+export const interestTechs = [
+    {
+        link: "https://tailwindcss.com",
+        src: "../../public/icons/tailwind.png",
+        alt: "Tailwind CSS"
+    },
+    {
+        link: "https://laravel.com",
+        src: "../../public/icons/laravel.png",
+        alt: "Laravel"
+    },
+    {
+        link: "https://fr.reactjs.org",
+        src: "../../public/icons/react.png",
+        alt: "React Js"
+    },
+    {
+        link: "https://nextjs.org",
+        src: "../../public/icons/next.png",
+        alt: "Next Js"
+    },
+    {
+        link: "https://vitejs.dev",
+        src: "../../public/icons/vite.png",
+        alt: "Vite Js"
+    },
+    {
+        link: "https://vercel.com",
+        src: "../../public/icons/vercel.png",
+        alt: "Vercel"
+    },
+    {
+        link: "https://firebase.google.com",
+        src: "../../public/icons/firebase.png",
+        alt: "Firebase"
+    },
+    {
+        link: "https://www.mongodb.com",
+        src: "../../public/icons/mongo.png",
+        alt: "Mongo DB"
+    }
+]
