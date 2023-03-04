@@ -210,6 +210,17 @@ const Technologies = {
     }
 }
 
+export const descriptions = {
+    UHC_Run: "L'UHC Run est un mode de jeu minecraft de type survie. Ce plugin est fait à l'aide du framework Spigot, et il est " +
+        "open source et disponible sur mon Github.",
+    Matermind: "Mastermind est un jeu bien connu ou vous devez trouver une combinaison de cinq couleurs dans un ordre précis." +
+        " Cette fois le jeu revient en version jeu sur ordinateur, et programmé en Java FX.",
+    Spotifree: "Spotifree est un site de streaming de musique librement inspiré d'un autre site de streaming bien connu." +
+        " Il est programmé en Php et avec Tailwind Css pour le style de la page.",
+    Portfolio: "Le portfolio est le projet le plus important que j'ai réalisé jusqu'à maintenant. Il est mon moyen de montrer ce que je sais" +
+        " faire et ce que j'ai déjà fait. Il est mon premier projet en javascript et qui utilise React."
+}
+
 
 export const mastermind = [
     Technologies.JAVA, Technologies.JAVA_FX
