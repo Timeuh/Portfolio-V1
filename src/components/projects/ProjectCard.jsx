@@ -5,10 +5,10 @@ function ProjectCard({techs, image, name, borderColor, textColor, projectLink}) 
                 rounded-md ${borderColor} border-2 py-8 hover:bg-white hover:bg-opacity-20 hover:transition`}>
             <h1 className={`text-center text-3xl ${textColor}`}>{name}</h1>
             <img src={image} alt={name} width="300" height="300"/>
-            <div className="text-center flex-wrap mx-8">
+            <div className="text-center flex-wrap mx-8 flex flex-row space-x-4 justify-center">
                 {techs.map((tech, i) => {
                     return (
-                        <img key={i} src={tech.link} alt={tech.name}></img>
+                        <img key={i} src={tech.link} alt={tech.name} className="my-2"></img>
                     );
                 })}
             </div>
