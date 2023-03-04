@@ -5,7 +5,7 @@ import mail from "../../public/icons/mail.png";
 function Contact() {
 
     return (
-        <div id="contact" className="w-full h-screen bg-thunder-500">
+        <div id="contact" className="w-full h-screen bg-thunder-500 flex flex-col justify-center">
             <div className="h-4/6 flex flex-col justify-center">
                 <h1 className="text-4xl font-bold text-center py-14 text-fuel-yellow-main">Pour me contacter, vous
                     pouvez utiliser un de ces
