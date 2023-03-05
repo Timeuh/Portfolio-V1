@@ -236,5 +236,5 @@ export const UHC_Run = [
 
 export const Portfolio = [
     Technologies.VITE, Technologies.JAVASCRIPT, Technologies.REACT,
-    Technologies.TAILWIND
+    Technologies.TAILWIND, Technologies.FIREBASE
 ]
