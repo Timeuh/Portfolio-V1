@@ -16,4 +16,9 @@
     .skills-icon-hover {
         @apply bg-white bg-opacity-20 rounded drop-shadow-lg transition
     }
+
+    .contact-link {
+        @apply absolute text-fuel-yellow-main text-center flex flex-col justify-center h-full w-full bg-black bg-opacity-0 hover:bg-opacity-30 rounded-full
+        text-2xl font-bold
+    }
 }
