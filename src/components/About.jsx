@@ -7,7 +7,7 @@ function About() {
 
     return (
         <div id="about"
-             className="w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full bg-[url('../../public/backgrounds/about-bg.png')] bg-cover">
+             className="w-full bg-thunder-800 text-fuel-yellow-main text-xl h-full bg-[url('/backgrounds/about-bg.png')] bg-cover">
             <div className="flex flex-row justify-around items-center h-1/4 py-8">
                 <img src={picture} height="300" width="300" alt="me"
                      className="rounded-full border-2 border-fuel-yellow-main"/>
