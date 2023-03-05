@@ -1,6 +1,5 @@
-import github from "../../public/icons/github_icon.png";
-import linkedin from "../../public/icons/linkedin.png";
-import mail from "../../public/icons/mail.png";
+import ContactLink from "./contact/ContactLink.jsx";
+import {contactLinks} from "../services/ContactData.js";
 
 function Contact() {
 
@@ -12,9 +11,9 @@ function Contact() {
                     <span className="text-monza-main"> liens</span>
                 </h1>
                 <div className="flex flex-row space-x-14 justify-center">
-                    <img src={github} alt="Mon Github" width="200" height="200" className="rounded-full"/>
-                    <img src={linkedin} alt="Mon LinkedIn" width="200" height="200" className="rounded-full"/>
-                    <img src={mail} alt="Mon Mail" width="200" height="200" className="rounded-full"/>
+                    <ContactLink contact={contactLinks.github}/>
+                    <ContactLink contact={contactLinks.linkedin}/>
+                    <ContactLink contact={contactLinks.mail}/>
                 </div>
             </div>
         </div>
