@@ -8,8 +8,9 @@ import portfolioIllu from "../../public/projects/portfolio.png";
 function Projects() {
 
     return (
-        <div id="projects" className="h-screen w-full flex flex-col justify-center bg-thunder-600 items-center">
-            <div className="grid grid-cols-2 grid-rows-2 gap-y-8 h-3/4 w-5/6 justify-items-center">
+        <div id="projects" className="2xl:h-screen w-full flex flex-col justify-center bg-thunder-600 items-center">
+            <div className="2xl:grid 2xl:grid-cols-2 2xl:grid-rows-2 2xl:gap-y-8 2xl:h-3/4 2xl:w-5/6
+                justify-items-center flex flex-col justify-center items-center gap-y-4">
                 <ProjectCard techs={UHC_Run} image={uhcRunIllu} name="UHC Run"
                              borderColor="border-green-400" textColor="text-green-400"
                              projectLink={"https://github.com/Timeuh/UHC-Run"} description={descriptions.UHC_Run}/>

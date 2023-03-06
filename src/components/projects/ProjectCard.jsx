@@ -13,8 +13,8 @@ function ProjectCard({techs, image, name, borderColor, textColor, projectLink, d
     }
 
     return (
-        <a href={projectLink} className={`space-y-4 bg-black bg-opacity-30 flex flex-col items-center justify-center w-1/2 h-full 
-                rounded-md ${borderColor} border-2 py-8 hover:transition relative`}>
+        <a href={projectLink} className={`space-y-4 bg-black bg-opacity-30 flex flex-col items-center justify-center 2xl:w-1/2 2xl:h-full 
+                rounded-md ${borderColor} border-2 hover:transition relative w-3/4 my-8`}>
             <div className="h-full w-full absolute hover:bg-white hover:bg-opacity-80 transition text-justify flex flex-col justify-center
                  text-2xl p-8"
                  onMouseEnter={handleEnter} onMouseLeave={handleExit}>
