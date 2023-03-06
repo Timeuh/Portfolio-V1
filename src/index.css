@@ -5,12 +5,14 @@
 @layer components {
 
     .navbar {
-        @apply flex flex-row space-x-4 bg-[#251316] justify-between px-8 h-20 text-2xl font-bold text-fuel-yellow-main sticky top-0 z-40
+        @apply flex flex-row 2xl:space-x-4 bg-[#251316] 2xl:justify-between 2xl:px-8 h-20 text-2xl font-bold text-fuel-yellow-main sticky top-0 z-40
+        text-[4vw] 2xl:text-3xl
     }
 
     .navbar-item {
-        @apply bg-[#251316] flex flex-col text-center my-1 py-5 mx-1 border-b-4 border-monza-main border-opacity-0
-        hover:border-opacity-100 transition h-full hover:text-fuel-yellow-200
+        @apply bg-[#251316] shrink 2xl:py-5 border-b-4 border-monza-main border-opacity-0
+        hover:border-opacity-100 transition h-full hover:text-fuel-yellow-200 w-[1vw] 2xl:w-1/2 whitespace-nowrap text-[3vw]
+        2xl:text-2xl
     }
 
     .skills-icon-hover {
