@@ -7,7 +7,7 @@ This portfiolo will remain active even when my new one will be finished, but onl
 
 # ⏰ Advandcement of the new portfolio
 
-## 🪜 Step 1 - Current Step 🏴󠁧󠁢󠁮󠁩󠁲󠁿
+## 🪜 Step 1 󠁧󠁢󠁮󠁩󠁲󠁿
 ### The first step is the `Design`. I design my potfolio with : 
 
 ![Figma](https://img.shields.io/badge/Figma-Web%20Design-red?style=for-the-badge&logo=figma) To design the porftolio before coding.
@@ -19,7 +19,7 @@ This portfiolo will remain active even when my new one will be finished, but onl
 ![Flaticon](https://img.shields.io/badge/FlatIcon-Icons%20Database-green?style=for-the-badge) For the other icons I couldn't find in Icons8.
 [Discover here](https://www.flaticon.com/)
 
-## 🪜 Step 2
+## 🪜 Step 2 - Current Step 🏴
 ### The second setp is the `Website Development`. To code the portfolio, I use :
 
 ![Vite JS](https://img.shields.io/badge/Vite%20Js-Site%20Build%20and%20Run-purple?style=for-the-badge&logo=vite) To build and run the site.
