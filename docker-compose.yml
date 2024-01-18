@@ -11,7 +11,7 @@ services:
       - "51111:80"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.portfolio-v1.rule=Host(`portfolio-v2.timeuh.fr`)"
+      - "traefik.http.routers.portfolio-v1.rule=Host(`portfolio-v1.timeuh.fr`)"
       - "traefik.http.routers.portfolio-v1.entrypoints=websecure"
       - "traefik.http.routers.portfolio-v1.tls.certresolver=myresolver"
     networks:
