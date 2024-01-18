@@ -11,5 +11,11 @@ services:
       - '0.0.0.0:51110:4173'
     working_dir: /app
     command: npm run preview
+
+  apache:
+    image: httpd:latest
+    ports:
+      - "8080:80"
+    volumes:
+      - ./dist:/usr/local/apache2/htdocs/
     restart: always
-    tty: true
