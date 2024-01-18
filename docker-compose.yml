@@ -1,0 +1,13 @@
+version: '3.8'
+name: 'portfolio'
+
+services:
+  portfolio:
+    image: node:20-alpine
+    volumes:
+      - ./:/app
+    ports:
+      - '51110:3000'
+    working_dir: /app
+    command: npm run dev
+    restart: always
