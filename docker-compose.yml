@@ -8,7 +8,8 @@ services:
     volumes:
       - ./:/app
     ports:
-      - '51110:3000'
+      - '0.0.0.0:51110:4173'
     working_dir: /app
-    command: npm run dev
+    command: npm run preview
     restart: always
+    tty: true
