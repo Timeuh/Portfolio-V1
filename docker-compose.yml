@@ -1,21 +1,24 @@
 version: '3.8'
 
 services:
-  vite:
-    image: node:20-alpine
-    container_name: portfolio-vite
-    volumes:
-      - ./:/app
-    ports:
-      - '0.0.0.0:51110:4173'
-    working_dir: /app
-    command: npm run preview
-
   apache:
     image: httpd:latest
     container_name: portfolio-apache
-    ports:
-      - "0.0.0.0:51111:80"
     volumes:
       - ./dist:/usr/local/apache2/htdocs/
     restart: always
+    ports:
+      - "51111:80"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.portfolio-v1.rule=Host(`portfolio-v2.timeuh.fr`)"
+      - "traefik.http.routers.portfolio-v1.entrypoints=websecure"
+      - "traefik.http.routers.portfolio-v1.tls.certresolver=myresolver"
+    networks:
+      - traefik_web
+
+networks:
+  traefik_web:
+    external: true
+  default:
+    driver: bridge
